@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        header{
+            background-color: rgb(49, 223, 49);
+            color: #fff;
+            text-align: center;
+            padding: 7px 0px;
+        }
+        nav{
+            margin: 20px 0px;
+        }
+        nav a{
+            color: rgb(35, 202,,35);
+            font-size: 1.1rem;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+        main {
+            padding-left: 20px;
+            width: 700px;
+        }
+        main img {
+            width: 800px;
+        }
+        main p {
+            text-align: center;
+        }
+        section{
+            margin: 60px 0px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 350px;
+            height: 150px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            height: 50px;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My First Webpage</h2>
+    </header>  
+    <nav>
+        <a href="#webpage-contents">Webpage Contents</a>
+        <a href="#information-table">Information Table</a>
+        <a href="#contact-form">Contact Form</a>
+    </nav>
+    <main>
+        <img src="sunset ocean" alt="">
+        <p>
+            This is a sample paragraph describing the content of the webpage.it explains the purpose of the page and provide some basic Informationabout what users can expect to find.
+        </p>
+        <div>
+            <a href="https://www.techyjaunt.com" target="_blank">Visit TechyJaunt</a>
+        </div>
+      <article id="webpage contents"></article>
+        <h3>Webpage Contents</h3>
+        <ul>
+            <li>Introduction</li>
+            <li>Table of Information</li>
+            <li>Contact Form</li>
+        </ul>
+      </article>
+      <section id="Information table">
+        <h3>Information Table</h3>
+        <table>
+            <Thead>
+                <Tr>
+                    <Th>Item</Th>
+                    <Th>Description</Th>
+                    <Th>Quantity</Th>
+                </Tr>
+            </Thead>
+            <Tbody>
+                <Tr>
+                    <Td>Pens</Td>
+                    <Td>Blue ink pens</Td>
+                    <Td>5</Td>
+                </Tr>
+                <Tr>
+                    <Td>Notebooks</Td>
+                    <Td>Spiral-bound Notebooks</Td>
+                    <Td>3</Td>
+                </Tr>
+                <Tr>
+                    <Td>Markers</Td>
+                    <Td>Permanent Markers</Td>
+                    <Td>2</Td>
+                </Tr>
+            </Tbody>
+        </table>
+      </section>
+      <section id="contact form">
+        <h3>Contact Form</h3>
+        <form>
+            <label for="name">Name</label> <input type="text" id="name"/>
+            <br/>
+            <br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" /><br/><br/>
+            <label for="password">Password</label>
+            <input type="password" id="password"/><br/><br/>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male"/> <span>Male</span>
+            <input type="radio" name="gender" id="female"/> <span>Female</span> <br/> <br/>
+            <label for="items">Number of Items</label>
+            <input type="number" name="items" id="items"/> <br/><br/>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"/> <br/><br/>
+            <label for="message">Message</label> <br/>
+            <textarea name="message" id="message" cols="50" rows="8"></textarea> <br/><br/>
+            <button>
+                <text>submit</text>
+            </button>
+        </form>
+
+      </section>
+    </main>
+
+</body>
+</html>
